@@ -1,0 +1,23 @@
+.header-bg-color {
+    background-color: #FFF9F4;
+}
+
+.top-banner-heading-c1 {
+    color: #FA804C;
+}
+.top-banner-heading-c2, .casual-shoes-tc, .feature-description {
+    color: #192a56;
+}
+/* Button styles  */
+.button-styles {
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+}
+/* Card Styles  */
+.card-img-bg-color {
+    background-color:rgb(218, 212, 212);
+    border-radius: 20px;
+}
+.price-tag {
+    color: #FA804C;
+}
