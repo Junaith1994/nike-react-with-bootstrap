@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- header part starts  -->
-    <header class="header-bg-color mb-4 pb-5">
+    <header class="header-bg-color mx-auto mb-4 pb-5">
         <!-- navbar section -->
         <section class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -31,13 +31,13 @@
                                 <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-bold" href="#">Product</a>
+                                <a class="nav-link fw-bold" href="#product">Product</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link fw-bold" href="#">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-bold" href="#">Contact us</a>
+                                <a class="nav-link fw-bold" href="#contact">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -48,10 +48,10 @@
         <section>
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-md-6">
-                        <img src="images/Group 33092.png" width="407" height="407" alt="">
+                    <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1 order-sm-2">
+                        <img class="w-auto" src="images/Group 33092.png" width="407" height="407" alt="">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-sm-12 col-md-12 col-lg-6 order-1 order-sm-1 mt-sm-4 mt-4">
                         <h2 class="text-uppercase"><span class="top-banner-heading-c1 fs-1 fw-bold">Nike React</span>
                             <br>
                             <span class="top-banner-heading-c2 fs-1 fw-bold">Infinity Run 2</span>
@@ -67,9 +67,9 @@
     <!-- main part starts -->
     <main>
         <!-- Casual Shoes  -->
-        <section class="container">
+        <section class="container" id="product">
             <h2 class="text-uppercase fw-bold casual-shoes-tc mb-3">Casual shoes</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <!-- shoe-1 -->
                 <div class="col">
                     <div class="card shadow-sm p-3 mb-5 bg-body rounded">
@@ -123,7 +123,7 @@
         <!-- Formal Shoes  -->
         <section class="container">
             <h2 class="text-uppercase fw-bold casual-shoes-tc mb-3">Formal Shoes</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <!-- shoe-1 -->
                 <div class="col">
                     <div class="card shadow-sm p-3 mb-5 bg-body rounded">
@@ -174,36 +174,37 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <!-- Customer Benifits Section -->
+        <section class="container" id="contact">
             <div class="row">
-                <div class="col-12 col-md-6">
-                    <div class="d-flex shadow-sm p-3 mb-5 bg-body rounded">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-sm-2 order-lg-1">
+                    <div class="d-flex flex-sm-column align-items-sm-center flex-lg-row shadow-sm p-3 mb-5 bg-body rounded">
                         <img class="me-4" src="icons/image 12.png" width="78" height="82" alt="">
-                        <div>
+                        <div class="text-sm-center">
                             <h3 class="fw-bold feature-description">Find the Perfect Fit</h3>
                             <p>Everybody is different, which is why we
                                 offer styles for every body.</p>
                         </div>
                     </div>
-                    <div class="d-flex shadow-sm p-3 mb-5 bg-body rounded">
+                    <div class="d-flex flex-sm-column align-items-sm-center flex-lg-row shadow-sm p-3 mb-5 bg-body rounded">
                         <img class="me-4" src="icons/image 13.png" width="78" height="82" alt="">
-                        <div>
+                        <div class="text-sm-center">
                             <h3 class="fw-bold feature-description">Free Exchanges</h3>
                             <p>One of the many reasons you can shop
                             with peace of mind.</p>
                         </div>
                     </div>
-                    <div class="d-flex shadow-sm p-3 mb-5 bg-body rounded">
+                    <div class="d-flex flex-sm-column align-items-sm-center flex-lg-row shadow-sm p-3 mb-5 bg-body rounded">
                         <img class="me-4" src="icons/image 14.png" width="78" height="82" alt="">
-                        <div>
+                        <div class="text-sm-center">
                             <h3 class="fw-bold feature-description">Contact Our Seller</h3>
                             <p>They are here to help you. That's quite
                             literally what we pay them for.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="icons/XMLID 1.png" width="600" height="355" alt="">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-sm-1">
+                    <img class="w-sm-75" src="icons/XMLID 1.png" width="500" height="355" alt="">
                 </div>
             </div>
         </section>
